@@ -262,7 +262,7 @@ function Kavo.CreateLib(kavName, themeList)
     title.BorderSizePixel = 0
     title.Position = UDim2.new(0.0171428565, 0, 0.344827592, 0)
     title.Size = UDim2.new(0, 204, 0, 8)
-    title.Font =  Impact
+    title.Font =  Enum.Font.GothamSemibold
     title.RichText = true
     title.Text = kavName
     title.TextColor3 = Color3.fromRGB(255, 0, 0. )
@@ -406,7 +406,7 @@ function Kavo.CreateLib(kavName, themeList)
         Objects[tabButton] = "SchemeColor"
         tabButton.Size = UDim2.new(0, 135, 0, 28)
         tabButton.AutoButtonColor = false
-        tabButton.Font =  Impact
+        tabButton.Font =  Enum.Font.GothamSemibold
         tabButton.Text = tabName
         tabButton.TextColor3 = themeList.TextColor
         Objects[tabButton] = "TextColor3"
@@ -635,7 +635,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
-                moreInfo.Font =  Impact
+                moreInfo.Font =  Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..tipINf
                 moreInfo.RichText = true
                 moreInfo.TextColor3 = themeList.TextColor
@@ -667,7 +667,7 @@ function Kavo.CreateLib(kavName, themeList)
                 btnInfo.BackgroundTransparency = 1.000
                 btnInfo.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                 btnInfo.Size = UDim2.new(0, 314, 0, 14)
-                btnInfo.Font =  Impact
+                btnInfo.Font =  Enum.Font.GothamSemibold
                 btnInfo.Text = bname
                 btnInfo.RichText = true
                 btnInfo.TextColor3 = themeList.TextColor
@@ -848,7 +848,7 @@ function Kavo.CreateLib(kavName, themeList)
                 togName.BackgroundTransparency = 1.000
                 togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                 togName.Size = UDim2.new(0, 138, 0, 14)
-                togName.Font =  Impact
+                togName.Font =  Enum.Font.GothamSemibold
                 togName.Text = tname
                 togName.RichText = true
                 togName.TextColor3 = themeList.TextColor
@@ -864,7 +864,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
-                moreInfo.Font =  Impact
+                moreInfo.Font =  Enum.Font.GothamSemibold
                 moreInfo.RichText = true
                 moreInfo.Text = "  "..tTip
                 moreInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1029,7 +1029,7 @@ function Kavo.CreateLib(kavName, themeList)
                     togName.BackgroundTransparency = 1.000
                     togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                     togName.Size = UDim2.new(0, 288, 0, 14)
-                    togName.Font =  Impact
+                    togName.Font =  Enum.Font.GothamSemibold
                     togName.Text = tname
                     togName.RichText = true
                     togName.TextColor3 = themeList.TextColor
@@ -1065,7 +1065,7 @@ function Kavo.CreateLib(kavName, themeList)
                     moreInfo.Position = UDim2.new(0, 0, 2, 0)
                     moreInfo.Size = UDim2.new(0, 353, 0, 33)
                     moreInfo.ZIndex = 9
-                    moreInfo.Font =  Impact
+                    moreInfo.Font =  Enum.Font.GothamSemibold
                     moreInfo.RichText = true
                     moreInfo.Text = "  "..nTip
                     moreInfo.TextColor3 = themeList.TextColor
@@ -1259,7 +1259,7 @@ function Kavo.CreateLib(kavName, themeList)
                 togName.BackgroundTransparency = 1.000
                 togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                 togName.Size = UDim2.new(0, 138, 0, 14)
-                togName.Font =  Impact
+                togName.Font =  Enum.Font.GothamSemibold
                 togName.Text = slidInf
                 togName.RichText = true
                 togName.TextColor3 = themeList.TextColor
@@ -1323,7 +1323,7 @@ function Kavo.CreateLib(kavName, themeList)
                 val.BackgroundTransparency = 1.000
                 val.Position = UDim2.new(0.352386296, 0, 0.272727281, 0)
                 val.Size = UDim2.new(0, 41, 0, 14)
-                val.Font =  Impact
+                val.Font =  Enum.Font.GothamSemibold
                 val.Text = minvalue
                 val.TextColor3 = themeList.TextColor
                 val.TextSize = 14.000
@@ -1339,7 +1339,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
-                moreInfo.Font =  Impact
+                moreInfo.Font =  Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..slidTip
                 moreInfo.TextColor3 = themeList.TextColor
                 moreInfo.TextSize = 14.000
@@ -1585,7 +1585,7 @@ function Kavo.CreateLib(kavName, themeList)
                 itemTextbox.BackgroundTransparency = 1.000
                 itemTextbox.Position = UDim2.new(0.0970000029, 0, 0.273000002, 0)
                 itemTextbox.Size = UDim2.new(0, 138, 0, 14)
-                itemTextbox.Font =  Impact
+                itemTextbox.Font =  Enum.Font.GothamSemibold
                 itemTextbox.Text = dropname
                 itemTextbox.RichText = true
                 itemTextbox.TextColor3 = themeList.TextColor
@@ -1638,7 +1638,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
                 moreInfo.RichText = true
-                moreInfo.Font =  Impact
+                moreInfo.Font =  Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..dropinf
                 moreInfo.TextColor3 = themeList.TextColor
                 moreInfo.TextSize = 14.000
@@ -1728,7 +1728,7 @@ function Kavo.CreateLib(kavName, themeList)
                     optionSelect.Position = UDim2.new(0, 0, 0.235294119, 0)
                     optionSelect.Size = UDim2.new(0, 352, 0, 33)
                     optionSelect.AutoButtonColor = false
-                    optionSelect.Font =  Impact
+                    optionSelect.Font =  Enum.Font.GothamSemibold
                     optionSelect.Text = "  "..v
                     optionSelect.TextColor3 = Color3.fromRGB(themeList.TextColor.r * 255 - 6, themeList.TextColor.g * 255 - 6, themeList.TextColor.b * 255 - 6)
                     optionSelect.TextSize = 14.000
@@ -1827,7 +1827,7 @@ function Kavo.CreateLib(kavName, themeList)
                         optionSelect.Position = UDim2.new(0, 0, 0.235294119, 0)
                         optionSelect.Size = UDim2.new(0, 352, 0, 33)
                         optionSelect.AutoButtonColor = false
-                        optionSelect.Font =  Impact
+                        optionSelect.Font =  Enum.Font.GothamSemibold
                         optionSelect.Text = "  "..v
                         optionSelect.TextColor3 = Color3.fromRGB(themeList.TextColor.r * 255 - 6, themeList.TextColor.g * 255 - 6, themeList.TextColor.b * 255 - 6)
                         optionSelect.TextSize = 14.000
@@ -1990,7 +1990,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
                 moreInfo.RichText = true
-                moreInfo.Font =  Impact
+                moreInfo.Font =  Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..keyinf
                 moreInfo.TextColor3 = themeList.TextColor
                 moreInfo.TextSize = 14.000
@@ -2011,7 +2011,7 @@ function Kavo.CreateLib(kavName, themeList)
                 togName.BackgroundTransparency = 1.000
                 togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                 togName.Size = UDim2.new(0, 222, 0, 14)
-                togName.Font =  Impact
+                togName.Font =  Enum.Font.GothamSemibold
                 togName.Text = keytext
                 togName.RichText = true
                 togName.TextColor3 = themeList.TextColor
@@ -2100,7 +2100,7 @@ function Kavo.CreateLib(kavName, themeList)
                 togName_2.BackgroundTransparency = 1.000
                 togName_2.Position = UDim2.new(0.727386296, 0, 0.272727281, 0)
                 togName_2.Size = UDim2.new(0, 70, 0, 14)
-                togName_2.Font =  Impact
+                togName_2.Font =  Enum.Font.GothamSemibold
                 togName_2.Text = oldKey
                 togName_2.TextColor3 = themeList.SchemeColor
                 togName_2.TextSize = 14.000
@@ -2264,7 +2264,7 @@ function Kavo.CreateLib(kavName, themeList)
                 togName.BackgroundTransparency = 1.000
                 togName.Position = UDim2.new(0.096704483, 0, 0.272727281, 0)
                 togName.Size = UDim2.new(0, 288, 0, 14)
-                togName.Font =  Impact
+                togName.Font =  Enum.Font.GothamSemibold
                 togName.Text = colText
                 togName.TextColor3 = themeList.TextColor
                 togName.TextSize = 14.000
@@ -2280,7 +2280,7 @@ function Kavo.CreateLib(kavName, themeList)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
-                moreInfo.Font =  Impact
+                moreInfo.Font =  Enum.Font.GothamSemibold
                 moreInfo.Text = "  "..colInf
                 moreInfo.TextColor3 = themeList.TextColor
                 moreInfo.TextSize = 14.000
@@ -2427,7 +2427,7 @@ function Kavo.CreateLib(kavName, themeList)
                 togName_2.BackgroundTransparency = 1.000
                 togName_2.Position = UDim2.new(0.779999971, 0, 0.100000001, 0)
                 togName_2.Size = UDim2.new(0, 278, 0, 14)
-                togName_2.Font =  Impact
+                togName_2.Font =  Enum.Font.GothamSemibold
                 togName_2.Text = "Rainbow"
                 togName_2.TextColor3 = themeList.TextColor
                 togName_2.TextSize = 14.000
