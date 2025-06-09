@@ -216,7 +216,7 @@ function Kavo.CreateLib(kavName, themeList)
     blurFrame.Name = "blurFrame"
     blurFrame.Parent = pages
     blurFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    blurFrame.BackgroundTransparency = 0.3
+    blurFrame.BackgroundTransparency = 1
     blurFrame.BorderSizePixel = 0
     blurFrame.Position = UDim2.new(-0.0222222228, 0, -0.0371747203, 0)
     blurFrame.Size = UDim2.new(0, 376, 0, 289)
@@ -243,7 +243,7 @@ function Kavo.CreateLib(kavName, themeList)
     MainHeader.BackgroundColor3 = themeList.Header
     Objects[MainHeader] = "BackgroundColor3"
     MainHeader.Size = UDim2.new(0, 525, 0, 29)
-    headerCover.CornerRadius = UDim.new(0, 4)
+    headerCover.CornerRadius = UDim.new(0, 11)
     headerCover.Name = "headerCover"
     headerCover.Parent = MainHeader
 
@@ -265,7 +265,7 @@ function Kavo.CreateLib(kavName, themeList)
     title.Font = Enum.Font.Gotham
     title.RichText = true
     title.Text = kavName
-    title.TextColor3 = Color3.fromRGB(245, 245, 245)
+    title.TextColor3 = Color3.fromRGB(230, 190, 50)
     title.TextSize = 16.000
     title.TextXAlignment = Enum.TextXAlignment.Left
 
