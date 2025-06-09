@@ -262,7 +262,7 @@ function Kavo.CreateLib(kavName, themeList)
     title.BorderSizePixel = 0
     title.Position = UDim2.new(0.0171428565, 0, 0.344827592, 0)
     title.Size = UDim2.new(0, 204, 0, 8)
-    title.Font = Impact
+    title.Font = Enum.Font.Gotham
     title.RichText = true
     title.Text = kavName
     title.TextColor3 = Color3.fromRGB(177, 167, 255)
@@ -406,7 +406,7 @@ function Kavo.CreateLib(kavName, themeList)
         Objects[tabButton] = "SchemeColor"
         tabButton.Size = UDim2.new(0, 135, 0, 28)
         tabButton.AutoButtonColor = false
-        tabButton.Font = Impact
+        tabButton.Font = Enum.Font.Gotham
         tabButton.Text = tabName
         tabButton.TextColor3 = themeList.TextColor
         Objects[tabButton] = "TextColor3"
@@ -528,7 +528,7 @@ function Kavo.CreateLib(kavName, themeList)
             sectionName.BorderColor3 = Color3.fromRGB(27, 42, 53)
             sectionName.Position = UDim2.new(0.0198863633, 0, 0, 0)
             sectionName.Size = UDim2.new(0.980113626, 0, 1, 0)
-            sectionName.Font = Impact
+            sectionName.Font = Enum.Font.Gotham
             sectionName.Text = secName
             sectionName.RichText = true
             sectionName.TextColor3 = themeList.TextColor
@@ -832,7 +832,7 @@ function Kavo.CreateLib(kavName, themeList)
                 TextBox.Size = UDim2.new(0, 150, 0, 18)
                 TextBox.ZIndex = 99
                 TextBox.ClearTextOnFocus = false
-                TextBox.Font = Impact
+                TextBox.Font = Enum.Font.Gotham
                 TextBox.PlaceholderColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 19, themeList.SchemeColor.g * 255 - 26, themeList.SchemeColor.b * 255 - 35)
                 TextBox.PlaceholderText = "Type here!"
                 TextBox.Text = ""
